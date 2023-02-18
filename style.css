@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F4EF;
+    text-align: center;
+}
+
+.title-div{
+    color: #0D1821;
+}
+
+.web-title{
+    margin-bottom: 0px;
+}
+
+.dimitri-title{
+    margin-top:0
+}
+
+p{
+    font-weight: 300;
+}
+
+.emily-pet-link,
+.my-pet-link{
+    padding: 0;
+    color: #E84855;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s
+}
+
+.emily-pet-link:hover,
+.my-pet-link:hover{
+    color:#d6747c
+}
+
+.emily-pet-link{
+    margin-right: 5px;
+}
+.my-pet-link{
+    margin-left: 5px;
+}
+
