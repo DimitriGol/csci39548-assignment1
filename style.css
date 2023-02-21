@@ -72,14 +72,17 @@ a:hover{
 .homepage-link{
     margin-bottom: 30px;
 }
-.emily-photos-div{
+.emily-photos-div,
+.dimitri-photos-div{
     display: inline;    
 }
 
 .buddy-pic,
 .pascal-pic,
 .kermit-pic,
-.coral-pic{
+.coral-pic,
+.sega-pic,
+.sasha-pic{
     object-fit: cover;
     width: 500px;
     height: 500px;
@@ -92,7 +95,9 @@ a:hover{
 .buddy-pic:hover,
 .pascal-pic:hover,
 .kermit-pic:hover,
-.coral-pic:hover{
+.coral-pic:hover,
+.sega-pic:hover,
+.sasha-pic:hover{
     width: 600px;
     height: 600px;
 }
@@ -117,3 +122,10 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* .sega-pic,
+.sasha-pic{
+    object-fit: cover;
+    width: 400px;
+    height: 400px
+} */
