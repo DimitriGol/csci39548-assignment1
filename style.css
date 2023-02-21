@@ -19,6 +19,20 @@ body{
     font-size: 40px;
 }
 
+.homepage.photos{
+    display: inline;
+    margin-top: 90px;
+}
+.buddy-pasc-fight,
+.buddy-pasc-park{
+    height: 400px;
+    width: auto;
+    border-radius: 10%;
+}
+.buddy-pasc-fight{
+    padding-right: 10px;
+}
+
 p{
     font-weight: 300;
     font-size: 15px;
@@ -45,15 +59,4 @@ p{
 }
 .my-pet-link{
     margin-left: 5px;
-}
-
-.homepage.photos{
-    display: inline;
-    margin-top: 100px;
-}
-.buddy-pasc-fight,
-.buddy-pasc-park{
-    height: 400px;
-    width: auto;
-    border-radius: 10%;
 }
