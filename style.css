@@ -31,7 +31,8 @@ p{
     color: #E84855;
     text-decoration: none;
     text-align: center;
-    transition: 0.2s
+    transition: 0.2s;
+    margin-bottom: 30px;
 }
 
 .emily-pet-link:hover,
@@ -46,3 +47,13 @@ p{
     margin-left: 5px;
 }
 
+.homepage.photos{
+    display: inline;
+    margin-top: 100px;
+}
+.buddy-pasc-fight,
+.buddy-pasc-park{
+    height: 400px;
+    width: auto;
+    border-radius: 10%;
+}
