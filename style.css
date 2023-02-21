@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F4EF;
+    text-align: center;
+}
+
+.title-div{
+    color: #0D1821;
+}
+
+.web-title{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 90px;
+}
+
+.dimitri-title{
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.homepage.photos{
+    display: inline;
+    margin-top: 90px;
+}
+.buddy-pasc-fight,
+.buddy-pasc-park{
+    height: 400px;
+    width: auto;
+    border-radius: 10%;
+}
+.buddy-pasc-fight{
+    padding-right: 10px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.emily-pet-link,
+.my-pet-link{
+    padding: 0;
+    font-size: 15px;
+    color: #E84855;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s;
+    margin-bottom: 30px;
+}
+
+.emily-pet-link:hover,
+.my-pet-link:hover{
+    color:#d6747c
+}
+
+.emily-pet-link{
+    margin-right: 5px;
+}
+.my-pet-link{
+    margin-left: 5px;
+}
