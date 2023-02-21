@@ -11,23 +11,23 @@ body{
 .web-title{
     margin-top: 60px;
     margin-bottom: 0px;
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .dimitri-title{
     margin-top: 0px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 p{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .emily-pet-link,
 .my-pet-link{
     padding: 0;
-    font-size: 30px;
+    font-size: 15px;
     color: #E84855;
     text-decoration: none;
     text-align: center;
