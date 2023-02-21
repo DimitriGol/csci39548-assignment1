@@ -38,20 +38,22 @@ p{
     font-size: 15px;
 }
 
-.emily-pet-link,
-.my-pet-link{
+a{
     padding: 0;
     font-size: 15px;
     color: #E84855;
     text-decoration: none;
     text-align: center;
     transition: 0.2s;
-    margin-bottom: 30px;
 }
 
-.emily-pet-link:hover,
-.my-pet-link:hover{
+a:hover{
     color:#d6747c
+}
+
+.emily-pet-link,
+.my-pet-link{
+    margin-bottom: 30px;
 }
 
 .emily-pet-link{
