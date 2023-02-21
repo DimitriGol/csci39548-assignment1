@@ -7,7 +7,9 @@ body{
 .title-div{
     color: #0D1821;
 }
-
+h1{
+    font-size: 70px;
+}
 .web-title{
     margin-top: 60px;
     margin-bottom: 0px;
@@ -48,7 +50,8 @@ a{
 }
 
 a:hover{
-    color:#d6747c
+    color:#d6747c;
+    font-size: 16px;
 }
 
 .emily-pet-link,
@@ -62,3 +65,34 @@ a:hover{
 .my-pet-link{
     margin-left: 5px;
 }
+
+/*  /////////////////////////////     */
+/* EMILY CSS */
+.emily-photos-div{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    
+}
+.buddy-pic,
+.pascal-pic,
+.kermit-pic,
+.coral-pic{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+}
+.buddy-pic{
+    object-position: top;
+}
+
+.buddy-pic:hover,
+.pascal-pic:hover,
+.kermit-pic:hover,
+.coral-pic:hover{
+    width: 310px;
+    height: 310px;
+}
+
