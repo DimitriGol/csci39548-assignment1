@@ -20,7 +20,9 @@ h1{
     margin-top: 0px;
     font-size: 40px;
 }
-
+img{
+    border-radius: 10%;
+}
 .homepage.photos{
     display: inline;
     margin-top: 90px;
@@ -29,7 +31,6 @@ h1{
 .buddy-pasc-park{
     height: 400px;
     width: auto;
-    border-radius: 10%;
 }
 .buddy-pasc-fight{
     padding-right: 10px;
@@ -67,21 +68,21 @@ a:hover{
 }
 
 /*  /////////////////////////////     */
-/* EMILY CSS */
-.emily-photos-div{
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1px;
-    
+/* EMILY/DIMITRI CSS */
+.homepage-link{
+    margin-bottom: 30px;
 }
+.emily-photos-div{
+    display: inline;    
+}
+
 .buddy-pic,
 .pascal-pic,
 .kermit-pic,
 .coral-pic{
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     transition: 0.3s;
 }
 .buddy-pic{
@@ -92,7 +93,27 @@ a:hover{
 .pascal-pic:hover,
 .kermit-pic:hover,
 .coral-pic:hover{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
+}
+table{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+th, td {
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px;
+}
+th{
+    color: #344966;
 }
 
+td{
+    font-weight: 300;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
